@@ -1,0 +1,7 @@
+Select
+block_time, tx_hash, evt_index, amount_usd
+from dex.trades
+where project = 'uniswap'
+order by 4 desc
+limit 20
+
